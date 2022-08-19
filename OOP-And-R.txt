@@ -1,0 +1,32 @@
+Object Oriented Programming (OOP)
+
+Generally in R, functional programming is much more important than object oriented programming.
+This is due to you typically solving complex problems by decomposing them into simple functions, not
+simple objects.
+
+Also, the main reason to use OOP is polymophism. Polymorphism means that a developer can consider a 
+function's interface seperately from its implementation, making it possible to use the same function 
+form for different types of input. This is closely related to the idea of encapsulation: the user 
+doesn't need to worry about detail of an object because they are encapsulated behind a standard interface.
+
+Now, To be more precise, OO systems call the type of an object its class, and an implementation for a 
+specific class is called a method. Roughly speaking, a class defines what an object is and methods describe
+what that object can do. The class defines the fields, the data possessed by every instance of that class. 
+Classes are organised in a hierarchy so that if a method does not exist for one class, its parent's methods 
+is used, and the child is said to inherit behavior. For example, in R, an ordered factor inherits from a 
+regular factor and a generalised linear model inherits from a linear model. The process of finding the 
+correct method given a class is called method dispatch.
+
+There are two main paradigms of object-oriented programming which differ in how methods and classes are
+related. These two paradigms are encapsulated OOP and functional OOP. 
+In encapsulated OOP, methods belong to objects or classes, and method calls typically look like 
+object.method(arg1, arg2). This is called encapsulated because the object encapsulates both data (with fields)
+and behavior (with methods), and is the paradigm found in the most popular languages.
+In functional OOP, methods belong to generic functions, and method calls look like ordinary function calls:
+generic(object, arg2, arg3). This is called functional because from the outside it looks like a regular function 
+call, and internally the comonents are also functions.
+
+Base R does provide three OOP systems: S3, S4, and reference classes (RC). More information in the referenced text.
+
+
+All information provided in this text document is from [Wickham, H. (2019). Advanced R. Taylor & Francis, CRC Press.] 
