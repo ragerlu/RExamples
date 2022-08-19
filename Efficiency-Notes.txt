@@ -1,0 +1,17 @@
+VECTORIZED CODE
+Vectored code in R is easy to write due to R functions already being vectorized. If you base your code 
+around the functions you wish to use, then your code will easily be made vectorized. 
+
+To create vectorized code:
+
+1. Use vectorized functions to complete the sequential steps in your program. 
+2. Use logical subsetting to handle parallel cases. Try to manipulate every element in a case at once.
+
+FAST FOR LOOPS
+The speed of your for loops can be dramatically increased by optimizing loops. First you want remove as
+much code as you can from the loop. preferably the loop has as minimal code as possible within its scope.
+For instance if a line of code only needs to be run once it should be outside the loop. Second, ensure 
+that any storage objects you use with the loop are large enough to contain all of the results of the loop.
+
+*The efficiency of your code can be checked using the system.time() function which returns the time it
+which your system takes to run your code involving the user, the system and the total elapsed time.
