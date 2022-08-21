@@ -17,8 +17,8 @@ geo + geom_dotplot(binwidth = 1.5)
 geo + geom_dotplot(binwidth = 2)
 
 #method
-geo + geom_dotplot(method="histodot")
-geo + geom_dotplot(method="histodot", binwidth = .2)
+geo + geom_dotplot(method = "histodot")
+geo + geom_dotplot(method = "histodot", binwidth = .2)
 
 #stack direction
 geo + geom_dotplot(stackdir = "center")
