@@ -1,4 +1,4 @@
-Object Oriented Programming (OOP)
+Object Oriented Programming (OOP) AND R
 
 Generally in R, functional programming is much more important than object oriented programming.
 This is due to you typically solving complex problems by decomposing them into simple functions, not

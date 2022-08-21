@@ -1,0 +1,7 @@
+Help Recommendation with Functions
+
+If you need help with a function or are looking for internal documentation, run the code ?function_name in your console.
+Or you can select the function name and press F1 when using RStudio.
+
+
+All information provided in this file is from [Grolemund, G., Wickham, H. (2017). R for Data Science. O'Reilly Media, Inc.]
