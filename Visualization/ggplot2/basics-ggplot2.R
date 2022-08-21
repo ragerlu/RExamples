@@ -1,4 +1,4 @@
-#The purpose of the intro-ggplot2.R file is to provide examples of the basics of ggplot2 visuals.
+#The purpose of the intro-ggplot2.R file is to provide examples of the basics -of ggplot2 visuals.
 
 #First you want to ensure the package which contains ggplot2 is installed. In your commmand line you want to
 #run the line 'install.packages("tidyverse")'.
