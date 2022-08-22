@@ -16,4 +16,5 @@ that any storage objects you use with the loop are large enough to contain all o
 *The efficiency of your code can be checked using the system.time() function which returns the time it
 which your system takes to run your code involving the user, the system and the total elapsed time.
 
+
 All information provided in this text document is from [Grolemund, G. (2014). Hands-On Programming with R. O'Reilly Media, Inc.]
