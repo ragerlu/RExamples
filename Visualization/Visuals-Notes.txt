@@ -1,6 +1,7 @@
 Visualization
 
-Great references: 
+Articles to reference: 
+
 - [ Li Q. Overview of Data Visualization. Embodying Data. 2020 Jun 20:17–47. doi: 10.1007/978-981-15-5069-0_2. 
     PMCID: PMC7303292. ]
 - [ Unwin, A. (2020, January 31). Why is data visualization important? What is important in data visualization?. 
