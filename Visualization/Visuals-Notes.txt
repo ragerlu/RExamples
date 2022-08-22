@@ -1,0 +1,10 @@
+Visualization
+
+Great references: 
+- [ Li Q. Overview of Data Visualization. Embodying Data. 2020 Jun 20:17–47. doi: 10.1007/978-981-15-5069-0_2. 
+    PMCID: PMC7303292. ]
+- [ Unwin, A. (2020, January 31). Why is data visualization important? What is important in data visualization?. 
+    issue 2.1, Winter 2020. Harvard Data Science Review. Retrieved August 21, 2022, 
+    from https://hdsr.mitpress.mit.edu/pub/zok97i7p/release/4 ]
+- [ Data Visualization vs. data analytics: What's the difference? Maryville Online. (2020, August 10). Retrieved 
+    August 21, 2022, from https://online.maryville.edu/blog/data-visualization-vs-data-analytics/ ]  
