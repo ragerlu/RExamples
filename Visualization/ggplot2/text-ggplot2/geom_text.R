@@ -1,4 +1,5 @@
-#The purpose of the geom_text.R file is to provide examples of bar geom visuals.
+#The purpose of the geom_text.R file is to provide examples of 
+#bar geom visuals.
 
 #Reference: https://ggplot2.tidyverse.org/reference/geom_text.html
 
