@@ -127,4 +127,3 @@ bar + coord_polar()
 
 #All information provided in this file is from
 #[Grolemund, G., Wickham, H. (2017). R for Data Science. O'Reilly Media, Inc.]
-

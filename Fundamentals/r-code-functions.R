@@ -11,18 +11,18 @@
 
 #Function examples:
 #Sum function:
-a=2
-b=2
+a <- 2
+b <- 2
 sum_function <- function(a, b){
-    a+b
+    a + b
 }
-print(sum_function())
+print(sum_function(a, b))
 #[4]
 
 #Truth function:
 truth_function <- function(){
-    user_input = bool(readline())
-    if user_input == true {
+    user_input <- bool(readline())
+    if (user_input == true) {
         print(true)
     }
     else{
