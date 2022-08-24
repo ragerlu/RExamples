@@ -61,20 +61,20 @@ ggplot(data = mpg) +
 #create with ~ followed by a variable name.
 #For instance...:
 ggplot(data = mpg) +
-    geom_plot(mapping = aes(x = displ, y= hwy)) +
+    geom_point(mapping = aes(x = displ, y= hwy)) +
     facet_wrap(~ class, nrow = 2)
 
 #When faceting a plot on two variables, use facet_grid(). The first argument of
 #facet grid is a data structure, the data 
 #structure should contain two variable names seperated by ~.
 ggplot(data = mpg) +
-    geom_plot(mapping = aes(x = displ, y= hwy)) +
+    geom_point(mapping = aes(x = displ, y= hwy)) +
     facet_grid(drv ~ cyl)
 
 #**If you do not want to facet in the rows or columns dimension, use a . instead
 #of a variable as the first argument in facet_grid().**
 ggplot(data = mpg) +
-    geom_plot(mapping = aes(x = displ, y= hwy)) +
+    geom_point(mapping = aes(x = displ, y= hwy)) +
     facet_grid(. ~ cyl)
 
 #GEOMETRIC ObJECTS:
@@ -88,15 +88,15 @@ ggplot(data = mpg) +
 ggplot(data = mpg) +
     geom_point(mapping = aes(x = displ, y= hwy))
 ggplot(data = mpg) +
-    geom_smooth(mapping = aes(x = displ, y= hwy))
+    geom_smooth(mapping = aes(x = displ, y = hwy))
 
 #By passing mappings to ggplot() you can avoid repetitin and even produce
 #legends for specific mappings. Try the two plots below and note the difference.
-ggplot(data = mpg, mapping = aes(x = displ, y= hwy)) +
+ggplot(data = mpg, mapping = aes(x = displ, y = hwy)) +
     geom_smooth() +
     geom_point()
 ggplot(data = mpg) +
-    geom_point(mapping = aes(x = displ, y= hwy)) +
+    geom_point(mapping = aes(x = displ, y = hwy)) +
     geom_smooth()
 
 #COORDINATE SYSTEMS:
@@ -127,3 +127,4 @@ bar + coord_polar()
 
 #All information provided in this file is from
 #[Grolemund, G., Wickham, H. (2017). R for Data Science. O'Reilly Media, Inc.]
+
